@@ -1,0 +1,24 @@
+﻿<Window x:Class="CompGraphics5.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CompGraphics5"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="800" Width="1000" >
+    <Grid>
+        <Button x:Name="buttonLeft" Content="Left"  Width="74" Click="leftButton" Margin="890,217,28,498"/>
+        <Button x:Name="buttonRight" Content="Right"  Width="74" Click="ButtonRight_OnClick" Margin="890,151,28,564"/>
+        <Button x:Name="buttonTop" Content="Top"  Width="74" Click="ButtonTop_OnClick" Margin="890,17,28,694"/>
+        <Button x:Name="buttonBottom" Content="Bottom"  Width="74" Click="ButtonBottom_OnClick" Margin="890,88,28,629"/>
+        <Button x:Name="buttonRotateLeft" Content="Rotate&#xD;&#xA;Left"   Width="74" Click="ButtonRotateLeft_OnClick" Margin="890,283,28,436"/>
+        <Button x:Name="buttonRotateRight" Content="Rotate&#xD;&#xA; Right"  Width="74" Click="ButtonRotateRight_OnClick" Margin="890,346,28,364"/>
+        <Canvas x:Name="MyCanvas" Height="800" Width="1000" >
+
+        </Canvas>
+        <Button x:Name="buttonFar" Content="Far"   Width="74" Click="ButtonFar_OnClick"  Margin="890,423,28,296"/>
+        <Button x:Name="buttonNear" Content="Closer"  Width="74" Click="ButtonNear_OnClick"  Margin="890,486,28,224"/>
+       
+
+    </Grid>
+</Window>
